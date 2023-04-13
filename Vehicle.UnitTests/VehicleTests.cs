@@ -1,3 +1,5 @@
+using System.Drawing;
+
 namespace Vehicle.UnitTests
 {
     public class VehicleTests
@@ -23,6 +25,22 @@ namespace Vehicle.UnitTests
 
         }
 
-        // Add more tests here!
+        [Fact]
+
+        public void  Drive_AddsFiveMilesToMilesDriven()
+        {
+           
+
+            var expected = 5;
+
+        }
+
+        [Fact]
+
+
+        public void Paint_ChangesColorOfCar()
+        {
+            var expected = "blue" ;
+        }
     }
 }
